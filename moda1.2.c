@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main()
-{
+{//iniciomain
 int calificacion[10];
     int i=0;
     int h=0;
@@ -12,10 +12,6 @@ int calificacion[10];
         scanf(" %d",&calificacion[i]);
     }
     
-
-    
-     printf("\nLA MODA ES: %d",calificacion[h]);
-    
-    return 0;
-    
-}
+     printf("\nLa moda es: %d",calificacion[h]);
+     
+}//finmain
